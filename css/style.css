@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  margin: 0rem;
+  padding: 0;
+  color: #EEEEEE;
+  font-family: "Roboto";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 14px;
+  background-color: black;
+  padding: 0 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222831;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+header nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  margin-left: 20px;
+}
+header nav a:hover {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-responsive {
+  font-size: 25px;
+  color: white;
+  display: none;
+}
+
+#sobremi {
+  background-color: #222831;
+  border-radius: 10px;
+  padding: 40px;
+}
+#sobremi .about {
+  display: flex;
+  align-items: center;
+}
+#sobremi .about .col h1 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#sobremi .about .col h2 {
+  margin: 10px 0;
+  font-size: 2rem;
+}
+#sobremi .about .descripcion {
+  max-width: 400px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+#sobremi .about button {
+  display: inline-block;
+  border: none;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#skill {
+  background-color: #222831;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#skill .skill h3 {
+  margin: 10px;
+}
+#skill .skill .front {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#skill .skill .front img {
+  max-width: 100px;
+  max-height: 100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#skill .skill .test {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#skill .skill .test img {
+  max-width: 100px;
+  max-height: 100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#skill .skill .backend {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#skill .skill .backend img {
+  max-width: 100px;
+  max-height: 100px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#proyectos {
+  background-color: #222831;
+  border-radius: 10px;
+  display: flex;
+}
+#proyectos .proyectos {
+  margin: 10px;
+}
+
+#contactame {
+  display: flex;
+  background-color: #222831;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 10px;
+}
+#contactame .contacto .redes {
+  margin: 10px;
+}
+#contactame .contacto .redes a {
+  margin: 20px;
+  font-size: 50px;
+}
+#contactame .contacto .correo {
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: #222831;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
