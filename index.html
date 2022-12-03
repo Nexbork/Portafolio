@@ -22,11 +22,11 @@
         <header>
             <h1 class="gradient-text">Nexbork</h1>
             <nav id="nav">
-                <a href="#inicio">Inicio</a>
-                <a href="#sobremi">Sobre mi</a>
-                <a href="#skill">Habilidades</a>
-                <a href="#proyectos">Proyectos</a>
-                <a href="#contactame">Contacto</a>
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#sobremi" onclick="seleccionar()">Sobre mi</a>
+                <a href="#skill" onclick="seleccionar()">Habilidades</a>
+                <a href="#proyectos" onclick="seleccionar()">Proyectos</a>
+                <a href="#contactame" onclick="seleccionar()">Contacto</a>
             </nav>
             <div id="icon-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
@@ -44,7 +44,7 @@
                     <h2 class="gradient-text">Desarrollador Front-end y Productor Musical</h2>
                     <button>Contactame</button>
                 </div>
-                <div class="descripcion">
+                <div class="col">
                     <p>
                         Estudio Diseño y desarrollo de software y suelo estudiar sobre diversos temas de programacion
                         y sobre temas que me gustan como la musica
@@ -130,8 +130,10 @@
                 <h2 class="gradient-text">¿Quieres contactarme?</h2>
                 <div class="redes">
                     <p>Puedes hacerlo mediante Linkedin, Github </p>
-                    <a href="https://www.linkedin.com/in/carlos-enrique-parraguez-inca-21010124b/"><i class="fa-brands fa-linkedin" hidden="true"></i></a>
-                    <a href="https://github.com/Nexbork?tab=repositories"><i class="fa-brands fa-github" hidden="true" ></i></a>
+                    <a href="https://www.linkedin.com/in/carlos-enrique-parraguez-inca-21010124b/"><i
+                            class="fa-brands fa-linkedin" hidden="true"></i></a>
+                    <a href="https://github.com/Nexbork?tab=repositories"><i class="fa-brands fa-github"
+                            hidden="true"></i></a>
                 </div>
                 <div class="correo">
                     <p>O enviame un correo a:</p>
@@ -145,11 +147,12 @@
 
         <!-- Foot -->
         <footer class="foot">
-                <p class="gradient-text">@Copyright by Carlos Parraguez</p>
-                <p class="gradient-text">2022</p>
+            <p class="gradient-text">@Copyright by Carlos Parraguez</p>
+            <p class="gradient-text">2022</p>
         </footer>
     </div>
     <!-- foot -->
+   <script src="app.js"></script>
 </body>
-
 </html>
+
